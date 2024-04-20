@@ -1,0 +1,7 @@
+name: bedwars
+version: 1.0
+main: nl.tenebresus.bedwars.BedWars
+commands:
+  bedwars:
+    description: bedwars
+    usage: /bedwars

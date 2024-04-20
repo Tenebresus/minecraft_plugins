@@ -1,0 +1,4 @@
+name: BedWars
+version: '1.0-SNAPSHOT'
+main: nl.tenebresus.bedwars.BedWars
+api-version: '1.20'
