@@ -1,0 +1,4 @@
+name: fking_around
+version: '1.0-SNAPSHOT'
+main: nl.tenebresus.fking_around.Fking_around
+api-version: '1.20'

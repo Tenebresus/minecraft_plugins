@@ -1,0 +1,4 @@
+name: fking_around
+version: '${project.version}'
+main: nl.tenebresus.fking_around.Fking_around
+api-version: '1.20'

@@ -11,9 +11,13 @@ public class Bed implements Listener {
     @EventHandler
     public static void onBedDestroy(BlockDestroyEvent e) {
 
-        if (e.getBlock().getType().equals(Material.RED_BED)) {
+        if (BedWars.state == BedWars.States.STARTED) {
 
-            Bukkit.broadcastMessage("BED IS DESTROYED!");
+            if (e.getBlock().getType().equals(Material.RED_BED)) {
+
+                Bukkit.broadcastMessage("BED IS DESTROYED!");
+
+            }
 
         }
 
